@@ -1,6 +1,19 @@
-$(function(){
+$(document).ready(function() {
+	setTimeout(function() {
+		window.location.href = 'views/contenido.html';
+    }, 4000);
 
     setTimeout(function() {
-        $('.fly-in-text').removeClass('hidden');
+        $('.fly-in-text').removeClass('oculto')
+       /* $('.welcome').fadeOut(10000);*/
+    },700 );
+    
+});
+/*$(function(){
+
+    setTimeout(function() {
+        $('.fly-in-text').removeClass('oculto')
+        $('.welcome').fadeOut(10000);
     },500 );
-})
+        
+})*/
