@@ -5,15 +5,9 @@ $(document).ready(function() {
 
     setTimeout(function() {
         $('.fly-in-text').removeClass('oculto')
-       /* $('.welcome').fadeOut(10000);*/
+      
     },700 );
-    
+      
 });
-/*$(function(){
 
-    setTimeout(function() {
-        $('.fly-in-text').removeClass('oculto')
-        $('.welcome').fadeOut(10000);
-    },500 );
-        
-})*/
+
