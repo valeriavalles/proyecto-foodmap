@@ -1,23 +1,39 @@
 $(document).ready(function() {
-    
-$('a').on('click',function() {
-    
+
+
+  
+
+
+  $('#search').on('click', function() {
     var area = $('.buscar');
-    switch (true) {
-            case area.val() === 'comida':
-            $('.menus').text('gracias por nada');
-              console.log('hola')
-              break;
-            case area.val() === 'italiana':
-            $('.menus').text('genial');  
-              break;
-            case area.val() === 'peruana':
-              imagesContainer.textContent = '';
-              showCoders(arr6Lima, LIMA6);
-              break;
-            default:
-              alert('lo siento');
-     }
     event.preventDefault();
+   
+    switch (true) {
+    case area.val() === 'comida peruana':
+     // $('.menus').text('gracias por nada');
+     $('.men')
+    .attr('src','../assets/images/uno.jpg')
+    .addClass('img-thumbnail'); 
+      break;
+    case area.val() === 'italiana':
+    $('.men')
+    .attr('src','../assets/images/dos.jpg'); 
+      break;
+    case area.val() === 'mexicana':
+    $('.men')
+    .attr('src','../assets/images/tres.jpg');
+      break;
+    default:
+      alert('Disculpe aun estoy aprendiendo!');
+    }
+    // event.preventDefault();
   });
+
+  
+  $('.men').on('mouseover', function() {
+    var prueba = $(this).text('hola')
+  });
+
+  
 });
+

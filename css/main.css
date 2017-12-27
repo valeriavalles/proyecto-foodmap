@@ -58,3 +58,13 @@ body {
 input {
     outline: none;
 }
+.menus {
+    margin-top: 2%;
+    text-align: center;
+    float: right;
+}
+.men {
+    margin: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
