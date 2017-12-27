@@ -64,7 +64,11 @@ input {
     float: right;
 }
 .men {
+    width:30%;
     margin: 2px;
     padding-left: 0;
     padding-right: 0;
+}
+.hola {
+    background: red;
 }

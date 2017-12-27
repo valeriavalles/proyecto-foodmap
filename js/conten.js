@@ -1,8 +1,11 @@
 $(document).ready(function() {
 
-
-  
-
+  $('.men').on('mouseover',function() {
+    var valorAtrr= $(this).attr('data-imag');
+    var texto= $('#'+ valorAtrr).addClass('hola');
+  //  $('.men').append(texto);
+    console.log(valorAtrr);
+    });
 
   $('#search').on('click', function() {
     var area = $('.buscar');
@@ -27,12 +30,10 @@ $(document).ready(function() {
       alert('Disculpe aun estoy aprendiendo!');
     }
     // event.preventDefault();
-  });
 
-  
-  $('.men').on('mouseover', function() {
-    var prueba = $(this).text('hola')
   });
+ 
+  
 
   
 });

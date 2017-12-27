@@ -22,15 +22,39 @@
             <input type="text"  class="buscar col-xs-10"><a href="" class="col-xs-2" id="search"><i class="icon-search"></i></a>
         </div>
     </div>
+    <div>
     <div class=" row menus col-xs-12 ">
-            <img class="men col-xs-4 img-responsive" src="" alt="">
-            <img class="men col-xs-3 img-responsive" src="" alt="">
-            <img class="men col-xs-4 img-responsive" src="" alt="">
-            <img class="men col-xs-4 img-responsive" src="" alt="">
-            <img class="men col-xs-4 img-responsive center-block" src="" alt="">
+            <img class="men" data-imag="ima1" data-toggle="modal" data-target="#miventana" id="ima1"  src="" alt="">
+            <img class="men" data-imag="ima2" data-toggle="modal" data-target="#miventana" id="ima2" src="" alt="">
+            <img class="men" data-imag="ima3" data-toggle="modal" data-target="#miventana" id="ima3" src="" alt="">
+            <img class="men" data-imag="ima4" data-toggle="modal" data-target="#miventana" id="ima4" src="" alt="">
+            <img class="men" data-imag="ima5" data-toggle="modal" data-target="#miventana" id="ima5" src="" alt="">
+    </div> 
+    <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Ceviche Picante</h3>
+                </div>
+                <div class="container">
+                    <div class="row col-sm-10 col-md-10 col-lg-6">
+                    <img src="../assets/images/map.png" class="img-responsive" alt="">
+                    </div>
+                    <h4>Ceviche para todos los gustos</h4>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laborum rem repudiandae dolorem, veritatis quia quis aliquam repellat suscipit et sint voluptatum numquam expedita vel tempora inventore! Molestias, accusamus minima?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerra</button>
+                </div>
+            </div>
+        </div>
     </div>
-    
- <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>   
+    </div>     
+   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script> 
+   <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>  
  <script src="../js/conten.js"></script>
 </body>
 </html>
