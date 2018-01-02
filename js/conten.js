@@ -24,6 +24,16 @@ $(document).ready(function() {
         .attr('src', '../assets/images/dos.jpg');
       // mostrarImag(); 
       break;
+    case area.val() === 'comida china':
+      $('.men')
+        .attr('src', '../assets/images/china.jpg');
+      // mostrarImag(); 
+      break;
+    case area.val() === 'comida cubana':
+      $('.men')
+        .attr('src', '../assets/images/cubana.jpg');
+      // mostrarImag(); 
+      break;
     case area.val() === 'comida mexicana':
       $('.men')
         .attr('src', '../assets/images/tres.jpg');
@@ -38,7 +48,7 @@ $(document).ready(function() {
   // probando con funciones //
   function mostrarImag() {
     $('.men')
-      .attr('src', '../assets/images/uno.jpg')
+      .attr('src', '../assets/images/ceviche.jpg')
       .addClass('img-thumbnail');
   }
 });
