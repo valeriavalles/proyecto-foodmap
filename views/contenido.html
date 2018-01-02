@@ -10,26 +10,32 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <header class="container"><h1 class="title">Foodmap</h1></header>
+    <header class="container">
+        <h1 class="title">Foodmap</h1>
+    </header>
     <hr>
-    
+    <!--********************* MAP PRINCIPAL *******************-->
     <div class="container ">
         <img src="../assets/images/map.png" class="img-responsive" alt="map">
     </div>
     <div class="container">
-        <h2>Comida cerca de ti</h2>
+        <div class="sub-title">
+            <h2>Comida cerca de ti</h2>
+        </div>
         <div class="search col-xs-12">
-            <input type="text"  class="buscar col-xs-10"><a href="" class="col-xs-2" id="search"><i class="icon-search"></i></a>
+            <input type="text"  class="buscar col-xs-10"><a href="#" class="col-xs-2" id="search"><i class="icon-search"></i></a>
         </div>
     </div>
+    <!--****************** CONTENEDOR/IMAGENES *******************-->
     <div>
     <div class=" row menus col-xs-12 ">
-            <img class="men" data-imag="ima1" data-toggle="modal" data-target="#miventana" id="ima1"  src="" alt="">
-            <img class="men" data-imag="ima2" data-toggle="modal" data-target="#miventana" id="ima2" src="" alt="">
-            <img class="men" data-imag="ima3" data-toggle="modal" data-target="#miventana" id="ima3" src="" alt="">
-            <img class="men" data-imag="ima4" data-toggle="modal" data-target="#miventana" id="ima4" src="" alt="">
-            <img class="men" data-imag="ima5" data-toggle="modal" data-target="#miventana" id="ima5" src="" alt="">
+            <img class="men" data-imag="ima1" data-target="#miventana" data-toggle="modal" id="ima1"  src="../assets/images/dos.jpg" alt="">
+            <img class="men" data-imag="ima2" data-target="#miventana" data-toggle="modal" id="ima2" src="../assets/images/uno.jpg" alt="">
+            <img class="men" data-imag="ima3" data-target="#miventana" data-toggle="modal" id="ima3" src="../assets/images/tres.jpg" alt="">
+            <img class="men" data-imag="ima4" data-target="#miventana" data-toggle="modal" id="ima4" src="../assets/images/tres.jpg" alt="">
+            <img class="men" data-imag="ima5" data-target="#miventana" data-toggle="modal" id="ima5" src="../assets/images/dos.jpg" alt="">
     </div> 
+    <!--**************************** VENTANA MODAl *************************-->
     <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -38,12 +44,14 @@
                     <h3>Ceviche Picante</h3>
                 </div>
                 <div class="container">
-                    <div class="row col-sm-10 col-md-10 col-lg-6">
-                    <img src="../assets/images/map.png" class="img-responsive" alt="">
+                    <div class=" col-sm-10 col-md-8 col-lg-6">
+                        <img src="../assets/images/map.png" class="img-responsive mod-imag" alt="">
                     </div>
-                    <h4>Ceviche para todos los gustos</h4>
+                    <div class="col-sm-12">
+                        <h4>Ceviche para todos los gustos</h4>
+                    </div>
                 </div>
-                <div class=" ">
+                <div class="textos ">
                    <div class="col-xs-6 col-sm-6">
                        <h4>Av.Benavides #1340 Miraflores ciudad de lima</h4>
                    </div>
@@ -59,9 +67,10 @@
             </div>
         </div>
     </div>
-    </div>     
-   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script> 
-   <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>  
- <script src="../js/conten.js"></script>
+    </div> 
+   
+<script src="../vendors/jquery/jquery-3.2.1.min.js"></script> 
+<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>  
+<script src="../js/conten.js"></script>
 </body>
 </html>
